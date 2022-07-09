@@ -1,13 +1,13 @@
 # Interview preparation webpage
 Here is the **webpage**: https://xuechanma.github.io/interview_prep/ 
-  
-**Feature**: A new **interview question** will show up everytime a user clicks on the button.   
+
+**Feature**: A new **interview question** will show up everytime a user clicks on the button.
   
 Feel free to fork this repo and adapt the list of review questions (they are currently academic-jobs oriented) for your own use.
 
 # Integrate python code to HTML
 Use **PyScript** to use python code directly in the HTML file.
-```
+```javascript
 <head>
   <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
   <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
