@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Interview Preparation</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    </head>
+<body>
+    <br>
+    <br>
+    <h1 class="header--main">Interview Preparation</h1>
+
+    <div class="para_box">
+        <py-script> 
+            list_of_questions = ['Please introduce yourself.\n', 'What is innovative about your research?\n', 'How will this job help you achieve your long term career plans?\n', 'What do you think are your most significant research accomplishments?\n', 'What do you consider to be your best paper/work and why?  What did it change about the way people approach the field?\n', 'What are your most important publications?\n', 'What papers do you have coming through in the next year?\n', 'If we gave you the position what might go wrong? How will you manage the risks?\n', 'Who are the key researchers in your area? How does your work compare with theirs?\n', 'How would you bridge the gap from your research to research users?\n', 'The university is keen to serve the wider community and economy. Does your planned research have any potential in these areas?\n', 'Describe in layman’s terms why your research project is interesting in two minutes.\n', 'Describe a research problem you have faced. What did you learn?\n', 'Why do you think you are ready for this position?\n', 'What will be your major focus as an independent researcher?\n', 'Describe your teaching experience. How do you feel about teaching?  What is your teaching philosophy?\n', 'Do you have any experience in curriculum development?\n', 'Have you supervised doctoral/ master candidates, and how did you find this experience? How did you manage them?\n', 'What advice would you give to a new researcher about supervising undergraduate or masters students?\n', 'How would you deal with any conflict/disagreement within the research group? Do you have an example of when you have had to deal with a disagreement? \n', 'What will you bring to the institution?\n', 'We are keen to develop collaborations between departments. What opportunities for multi-disciplinary work does your research offer?\n', 'In what ways, other than research and teaching could you contribute to this department?']
+            
+            num_of_questions = len(list_of_questions)
+            
+            a = 0
+            b = int(num_of_questions - 1)
+            import random
+            random_num = random.randint(a, b)
+            random_question = list_of_questions[random_num]
+            print(random_question)
+
+        </py-script> 
+    </div>
+    <button class="button" type="button" onclick="window.location.href=window.location.href">Click here to get a new interview question!</button>
+</body>
+</html>
