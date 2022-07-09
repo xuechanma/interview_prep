@@ -1,5 +1,6 @@
 # Interview preparation
 **Objective**: To set up a webpage that will show a new **interview question** everytime a user clicks on a button. 
+Feel free to fork this repo and adapt the list of review questions (they are currently academic-jobs oriented) for your own use.
 
 # Integrate python code to HTML
 Use **PyScript** to use python code directly in the HTML file.
